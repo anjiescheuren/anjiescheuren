@@ -1,12 +1,12 @@
 
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
   margin: 1em auto;
   background-color: #70C1B3;
   color: white;
   padding: 1.5em;
+  width: 100%;
 }
 
 .app {
@@ -73,6 +73,7 @@ color: #50514F;
 
 .resume {
   font-size: 2em;
+  margin: 1em auto 0 auto;
 }
 
 .links:hover {
