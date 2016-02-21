@@ -26,6 +26,10 @@ h1 {
   width: 100%;
 }
 
+.name {
+  margin-bottom: 35px;
+}
+
 h4 {
   font-family: 'Crimson Text', serif;
   color: white;
@@ -44,7 +48,7 @@ h4 {
 
 .flower {
   height: 12em;
-  margin-top: 1em;
+  margin: 0 auto;
 }
 
 .flowers {
@@ -59,7 +63,7 @@ hr {
   border-color: #50514F;
   margin: 0 auto;
   text-align: center;
-  width: 38em;
+  width: 50em;
 }
 
 a {
@@ -93,16 +97,14 @@ color: #50514F;
   font-size: 2em;
   color: #50514F;
   /*font-weight: 600;*/
-  margin: 1em auto;
-  margin-top: .5em;
+  margin: .65em auto;
+
 }
 
 .works {
   font-family: 'Fredericka the Great', cursive;
   font-size: 2.5em;
-  /*color: #FFE066;*/
-  /*font-weight: 600;*/
-  margin: 1em auto .5em;
+  margin: 35px auto;
 }
 
 .graduate {
