@@ -99,8 +99,18 @@ color: #50514F;
   font-size: 2em;
   color: #50514F;
   margin: 25px auto;
+}
 
+.email {
+  color: #FFE066;
+  font-size: 1.15em;
+  margin-top: .5em;
+  text-decoration: none;
+}
 
+.email:hover {
+  text-decoration: none;
+  color: #50514F;
 }
 
 .works {
