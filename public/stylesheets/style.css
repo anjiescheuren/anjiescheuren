@@ -50,6 +50,9 @@ h4 {
 .flowers {
   text-align: center;
   margin: 0 auto;
+  display: block;
+  padding: 0;
+  width: 168px;
 }
 
 hr {
@@ -81,6 +84,7 @@ color: #50514F;
 #wip {
   margin: 0 auto;
   margin-bottom: 1.5em;
+  width: 65%;
 }
 
 .web {
