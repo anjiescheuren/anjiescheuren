@@ -47,6 +47,11 @@ h4 {
   margin-top: 1em;
 }
 
+.flowers {
+  text-align: center;
+  margin: 0 auto;
+}
+
 hr {
   border-color: #50514F;
   margin: 0 auto;
@@ -151,6 +156,51 @@ color: #50514F;
     text-decoration: none;
     cursor: pointer;
     opacity: 100;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000;
+  margin: 0 auto;
+}
+  /* flip the pane when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+.flip-container, .front, .back {
+  width: 12em;
+  height: 12em;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+  height: 12em;
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
 }
 
 
