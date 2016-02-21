@@ -27,7 +27,8 @@ h1 {
 }
 
 .name {
-  margin-bottom: 35px;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
 
 h4 {
@@ -49,6 +50,7 @@ h4 {
 .flower {
   height: 12em;
   margin: 0 auto;
+  margin-top: .5em;
 }
 
 .flowers {
@@ -96,15 +98,15 @@ color: #50514F;
   font-family: 'Merriweather', serif;
   font-size: 2em;
   color: #50514F;
-  /*font-weight: 600;*/
-  margin: .65em auto;
+  margin: 25px auto;
+
 
 }
 
 .works {
   font-family: 'Fredericka the Great', cursive;
   font-size: 2.5em;
-  margin: 35px auto;
+  margin: 25px auto;
 }
 
 .graduate {
