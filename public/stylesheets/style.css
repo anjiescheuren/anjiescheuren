@@ -1,4 +1,3 @@
-
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;
@@ -65,11 +64,11 @@ hr {
   border-color: #50514F;
   margin: 0 auto;
   text-align: center;
-  width: 50em;
+  width: 45em;
 }
 
 a {
-color: #50514F;
+color: #FFE066;
 }
 
 .links {
@@ -80,6 +79,12 @@ color: #50514F;
 .resume {
   font-size: 2em;
   margin: 1em auto 0 auto;
+  color: #FFE066;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #50514F;
 }
 
 .links:hover {
@@ -133,49 +138,7 @@ color: #50514F;
   border-radius: 50%;
 }
 
-/* The Modal (background) */
-.modal {
-    margin: 0 auto;
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: white; /* Fallback color */
-    background-color: #70C1B3; /* Black w/ opacity */
-}
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: white;
-    margin: 0 auto; /* 15% from the top and centered */
-    padding: 2em;
-    border: 1px solid white;
-    width: 100%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-    float: none;
-    color: #70C1B3;
-    text-align: center;
-    height: 100%;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: .5em;
-    opacity: 100;
-}
-
-.close:hover,
-.close:focus {
-    color: #50514F;
-    text-decoration: none;
-    cursor: pointer;
-    opacity: 100;
-}
 
 /* entire container, keeps perspective */
 .flip-container {
