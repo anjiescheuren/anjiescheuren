@@ -87,8 +87,11 @@ a:hover {
 
 .web {
   font-family: 'Merriweather', serif;
-  font-size: 2em;
+  font-size: 2.15em;
   color: #50514F;
+}
+
+.webdiv {
   width: 100%;
 }
 
