@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   overflow: auto;
   height: 100%;
 }
@@ -21,13 +22,12 @@ body {
 
 .name {
   font-family: 'Fredericka the Great';
-  font-size: 8em;
-  max-width: 100%;
+  font-size: 3em;
 }
 
 img {
-  height: 152px;
-  width: 152px;
+  height: 135px;
+  width: 135px;
 }
 
 hr {
