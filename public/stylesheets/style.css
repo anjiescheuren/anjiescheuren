@@ -1,39 +1,41 @@
+
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Merriweather', serif;
   text-align: center;
-  margin: 1em auto;
   background-color: #70C1B3;
   color: white;
-  padding: 1.5em;
-  width: 100%;
+  max-width: 100%;
 }
 
 .app {
-  padding: 0;
-  margin: 0 auto;
+  /*padding: 0;*/
+  /*margin: 0 auto;*/
   text-align: center;
   height: 10em;
 }
 
-h1 {
+/*h1 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 6.25em;
   letter-spacing: .04em;
   color: white;
-  margin: 0 auto;
+  /*margin: 0 auto;
   padding: .1em;
   width: 100%;
-}
+}*/
 
-.name {
-  margin: 0 auto;
-  padding-bottom: 0;
+#name {
+  max-width: 100%;
+  height: auto;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2em;
+  color: white;
 }
 
 h4 {
   font-family: 'Crimson Text', serif;
   color: white;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   font-size: 1.5em;
 }
 
@@ -41,50 +43,60 @@ h4 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 1.5em;
   text-decoration: none;
-  padding: 1.3em 0;
-  margin: 0 auto;
-  margin: 0 1em;
+  /*padding: 1.3em 0;*/
+  /*margin: 0 auto;*/
+  /*margin: 0 1em;*/
 }
 
 .flower {
   height: 12em;
-  margin: 0 auto;
-  margin-top: .5em;
+  /*margin: 0 auto;*/
+  /*margin-top: .5em;*/
 }
 
 .flowers {
   text-align: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   display: block;
-  padding: 0;
+  /*padding: 0;*/
   width: 168px;
 }
 
 hr {
   border-color: #50514F;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   text-align: center;
   width: 45em;
+}
+
+.email {
+  color: #FFE066;
+  font-size: 1.15em;
+  /*margin-top: .5em;*/
+  text-decoration: none;
 }
 
 a {
 color: #FFE066;
 }
 
-.links {
-  color: #FFE066;
-  padding: .5em;
-}
-
-.resume {
-  font-size: 2em;
-  margin: 1em auto 0 auto;
+a:link {
   color: #FFE066;
 }
 
 a:hover {
   text-decoration: none;
   color: #50514F;
+}
+
+.links {
+  color: #FFE066;
+  /*padding: .5em;*/
+}
+
+.resume {
+  font-size: 2em;
+  /*margin: 1em auto 0 auto;*/
 }
 
 .links:hover {
@@ -94,8 +106,8 @@ a:hover {
 }
 
 #wip {
-  margin: 0 auto;
-  margin-bottom: 1.5em;
+  /*margin: 0 auto;*/
+  /*margin-bottom: 1.5em;*/
   width: 65%;
 }
 
@@ -103,33 +115,21 @@ a:hover {
   font-family: 'Merriweather', serif;
   font-size: 2em;
   color: #50514F;
-  margin: 25px auto;
-}
-
-.email {
-  color: #FFE066;
-  font-size: 1.15em;
-  margin-top: .5em;
-  text-decoration: none;
-}
-
-.email:hover {
-  text-decoration: none;
-  color: #50514F;
+  /*margin: 25px auto;*/
 }
 
 .works {
   font-family: 'Fredericka the Great', cursive;
   font-size: 2.5em;
-  margin: 25px auto;
+  /*margin: 25px auto;*/
 }
 
 .graduate {
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
   color: #50514F;
-  margin: .45em auto;
-  margin-bottom: 0;
+  /*margin: .45em auto;*/
+  /*margin-bottom: 0;*/
 }
 
 .profilepic {
@@ -143,7 +143,7 @@ a:hover {
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
   /* flip the pane when hovered */
   .flip-container:hover .flipper, .flip-container.hover .flipper {
@@ -157,7 +157,7 @@ a:hover {
 
 /* flip speed goes here */
 .flipper {
-  transition: 0.6s;
+  transition: .6s;
   transform-style: preserve-3d;
 
   position: relative;
