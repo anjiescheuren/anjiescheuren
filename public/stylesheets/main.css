@@ -19,15 +19,25 @@ body {
 .app {
   height: 10em;
 }
-
 .name {
   font-family: 'Fredericka the Great';
-  font-size: 3em;
+  font-size: 3.15em;
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+  .name {
+  font-family: 'Fredericka the Great';
+  font-size: 8.25em;
+  }
 }
 
 img {
-  height: 135px;
-  width: 135px;
+  height: 168px;
+  width: 168px;
+}
+
+.flower {
+  max-width: 100%;
 }
 
 hr {
@@ -73,8 +83,6 @@ a:hover {
 
 #wip {
   margin-bottom: 1.5em;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .web {
@@ -90,27 +98,19 @@ a:hover {
   margin: 25px auto;
 }
 
+@media (min-width: 700px), handheld and (orientation: landscape) {
+
+}
+
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000;
   margin: 0 auto;
 }
-  /* flip the pane when hovered */
-  .flip-container:hover .flipper, .flip-container.hover .flipper {
-    transform: rotateY(180deg);
-  }
 
 .flip-container, .front, .back {
   width: 12em;
   height: 12em;
-}
-
-/* flip speed goes here */
-.flipper {
-  transition: .6s;
-  transform-style: preserve-3d;
-
-  position: relative;
 }
 
 /* hide back of pane during swap */
@@ -127,10 +127,28 @@ a:hover {
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg);
-  height: 12em;
 }
 
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
 }
+
+@media (min-width: 700px) and (orientation: landscape) {
+
+  /* flip the pane when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+
+  /* flip speed goes here */
+  .flipper {
+    transition: .6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+
+}
+
+
+
