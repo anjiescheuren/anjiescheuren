@@ -21,7 +21,8 @@ body {
 }
 .name {
   font-family: 'Fredericka the Great';
-  font-size: 3.35em;
+  font-size: 3.24em;
+  max-width: 100%;
 }
 
 @media (min-width: 700px) and (orientation: landscape) {
