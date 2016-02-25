@@ -94,6 +94,13 @@ p {
   font-size: 2em;
 }
 
+.empty {
+  background-color: #70C1B3;
+  height: 18px;
+  position: relative;
+  bottom: 15px;
+}
+
 .links:hover {
   color: #50514F;
   text-decoration: none;
@@ -108,6 +115,11 @@ p {
   font-family: 'Merriweather', serif;
   font-size: 2em;
   color: #50514F;
+}
+
+.gif {
+  height: 400px;
+  margin-top: 1%;
 }
 
 .webdiv {
@@ -125,6 +137,7 @@ p {
   font-size: 1.5em;
   color: #50514F;
   margin: 0 6.5%;
+
 }
 
 .love {
@@ -183,7 +196,7 @@ p {
 
 #cf {
   position:relative;
-  height:281px;
+  height:260px;
   width:450px;
   max-width: 97%;
   margin: 0 auto;
