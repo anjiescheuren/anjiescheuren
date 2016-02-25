@@ -42,6 +42,10 @@ body {
   max-width: 100%;
 }
 
+.goodwill {
+
+}
+
 .flower {
   max-width: 100%;
   padding: 0;
@@ -76,6 +80,18 @@ a:hover {
   color: #FFE066;
   padding: .5em;
   padding-bottom: 15px;
+}
+
+.goodwill {
+  color: #FFE066;
+  font-size: 1.25em;
+  text-decoration: none;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 #resume {
