@@ -32,13 +32,19 @@ body {
   }
 }
 
-img {
+.img {
   height: 168px;
   width: 168px;
 }
 
+.bottom, .top {
+  height: 70%;
+  width: 100%;
+}
+
 .flower {
   max-width: 100%;
+  padding: 0;
 }
 
 hr {
@@ -102,6 +108,20 @@ a:hover {
   margin: 25px auto;
 }
 
+.aboutme {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
+  color: #50514F;
+  margin: 2% 12% 0 12%;
+}
+
+.love {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
+  color: #50514F;
+  margin: 0 12% 2% 12%;
+}
+
 @media (min-width: 700px), handheld and (orientation: landscape) {
 
 }
@@ -152,6 +172,26 @@ a:hover {
     position: relative;
   }
 
+}
+
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
 
 
