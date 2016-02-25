@@ -118,8 +118,9 @@ p {
 }
 
 .gif {
-  height: 400px;
+  height: auto;
   margin-top: 1%;
+  max-width: 100%;
 }
 
 .webdiv {
