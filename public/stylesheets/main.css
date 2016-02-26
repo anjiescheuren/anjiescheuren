@@ -25,10 +25,16 @@ body {
   max-width: 100%;
 }
 
-@media (min-width: 700px) and (orientation: landscape) {
+@media (min-width: 390px) and (orientation: landscape) {
   .name {
   font-family: 'Fredericka the Great';
   font-size: 8.35em;
+  }
+  .gif {
+  width: 500px;
+  }
+  .goodwill {
+  width: 500px;
   }
 }
 
@@ -78,10 +84,6 @@ a:hover {
   padding-bottom: 15px;
 }
 
-.goodwill {
-  width: 40%;
-}
-
 p {
   padding: 0;
   margin: 5px auto;
@@ -115,7 +117,6 @@ p {
 }
 
 .gif {
-  width: 40%;
   margin-top: 1%;
   max-width: 100%;
 }
