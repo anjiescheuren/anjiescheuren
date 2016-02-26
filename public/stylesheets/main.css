@@ -29,12 +29,15 @@ body {
   .name {
   font-family: 'Fredericka the Great';
   font-size: 8.35em;
+  margin: 0 auto;
   }
   .gif {
   width: 500px;
+  margin: 0 auto;
   }
   .goodwill {
   width: 500px;
+  margin:  0 auto;
   }
 }
 
@@ -67,6 +70,11 @@ hr {
 a {
 color: #FFE066;
 padding-bottom: 15px;
+}
+
+.heart {
+  font-size: 1.35em;
+  margin: .5% auto;
 }
 
 a:link {
@@ -117,7 +125,6 @@ p {
 }
 
 .gif {
-  margin-top: 1%;
   max-width: 100%;
 }
 
@@ -136,13 +143,15 @@ p {
   font-size: 1.35em;
   color: #50514F;
   margin: 0 8.5%;
+  max-width: 100%;
 }
 
 .music {
   font-family: 'Merriweather', serif;
   font-size: 1.35em;
   color: #50514F;
-  margin: 4% 10% 0;
+  margin: 4% 10% .5%;
+  max-width: 100%;
 }
 
 .love {
