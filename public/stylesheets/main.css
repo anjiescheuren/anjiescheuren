@@ -79,10 +79,7 @@ a:hover {
 }
 
 .goodwill {
-  color: #FFE066;
-  font-size: 1.35em;
-  text-decoration: none;
-  padding: 0;
+  width: 40%;
 }
 
 p {
@@ -96,9 +93,9 @@ p {
 
 .empty {
   background-color: #70C1B3;
-  height: 18px;
+  height: 25px;
   position: relative;
-  bottom: 15px;
+  bottom: 25px;
 }
 
 .links:hover {
@@ -118,7 +115,7 @@ p {
 }
 
 .gif {
-  height: 175%;
+  width: 40%;
   margin-top: 1%;
   max-width: 100%;
 }
@@ -137,8 +134,14 @@ p {
   font-family: 'Merriweather', serif;
   font-size: 1.35em;
   color: #50514F;
-  /*margin: 0 3%;*/
+  margin: 0 8.5%;
+}
 
+.music {
+  font-family: 'Merriweather', serif;
+  font-size: 1.35em;
+  color: #50514F;
+  margin: 4% 10% 0;
 }
 
 .love {
