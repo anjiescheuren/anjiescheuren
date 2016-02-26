@@ -39,6 +39,11 @@ body {
   width: 500px;
   margin:  0 auto;
   }
+
+  .music {
+    font-size: 1.35em;
+    margin-top: 2%;
+  }
 }
 
 .img {
@@ -148,7 +153,6 @@ p {
 
 .music {
   font-family: 'Merriweather', serif;
-  font-size: 1.35em;
   color: #50514F;
   margin: 4% 10% .5%;
   max-width: 100%;
