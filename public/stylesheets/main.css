@@ -159,9 +159,9 @@ p {
   .music {
     font-family: 'Merriweather', serif;
     color: #50514F;
-    margin: 4% 8% .5%;
+    margin: 4% 0 .5%;
     max-width: 100%;
-    /*font-size: 1em;*/
+    font-size: 1.35em;
   }
 
 .love {
