@@ -113,9 +113,13 @@ p {
 
 .empty {
   background-color: #70C1B3;
-  height: 25px;
+  height: 20px;
   position: relative;
-  bottom: 25px;
+  bottom: 20px;
+}
+
+#empty {
+  height: 1px;
 }
 
 .links:hover {
