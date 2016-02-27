@@ -37,7 +37,7 @@ body {
   }
   .goodwill {
   width: 500px;
-  margin:  0 auto;
+  margin: 0 auto;
   }
 
   .music {
@@ -159,7 +159,7 @@ p {
   .music {
     font-family: 'Merriweather', serif;
     color: #50514F;
-    margin: 4% 0 .5%;
+    margin: 3.5% 0 .5%;
     max-width: 100%;
     font-size: 1.35em;
   }
