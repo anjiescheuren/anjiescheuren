@@ -43,7 +43,11 @@ body {
   .music {
     font-size: 1.35em;
     margin-top: 2%;
-    font-style: bold;
+    font-size: 1.35em;
+    font-family: 'Merriweather', serif;
+    color: #50514F;
+    margin: 4% 10% .5%;
+    max-width: 100%;
   }
 }
 
@@ -152,12 +156,13 @@ p {
   max-width: 100%;
 }
 
-.music {
-  font-family: 'Merriweather', serif;
-  color: #50514F;
-  margin: 4% 10% .5%;
-  max-width: 100%;
-}
+  .music {
+    font-family: 'Merriweather', serif;
+    color: #50514F;
+    margin: 4% 10% .5%;
+    max-width: 100%;
+    font-size: 1.23em;
+  }
 
 .love {
   font-family: 'Merriweather', serif;
