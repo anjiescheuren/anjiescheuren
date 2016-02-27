@@ -25,7 +25,7 @@ body {
   max-width: 100%;
 }
 
-@media (min-width: 390px) and (orientation: landscape) {
+@media (min-width: 370px) and (orientation: landscape) {
   .name {
   font-family: 'Fredericka the Great';
   font-size: 8.35em;
@@ -46,7 +46,7 @@ body {
     font-size: 1.35em;
     font-family: 'Merriweather', serif;
     color: #50514F;
-    margin: 4% 10% .5%;
+    margin: 4% 8% .5%;
     max-width: 100%;
   }
 }
@@ -159,9 +159,9 @@ p {
   .music {
     font-family: 'Merriweather', serif;
     color: #50514F;
-    margin: 4% 10% .5%;
+    margin: 4% 8% .5%;
     max-width: 100%;
-    font-size: 1.23em;
+    /*font-size: 1em;*/
   }
 
 .love {
