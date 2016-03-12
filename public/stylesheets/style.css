@@ -24,7 +24,7 @@ h1 {
   width: 100%;
 }
 
-name {
+.name {
   max-width: 100%;
   height: auto;
   font-family: 'Fredericka the Great', cursive;
