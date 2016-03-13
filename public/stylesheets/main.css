@@ -16,9 +16,6 @@ body {
   height: 100%;
 }
 
-.app {
-  height: 10em;
-}
 .name {
   font-family: 'Fredericka the Great';
   font-size: 3.24em;
@@ -28,7 +25,7 @@ body {
 @media (min-width: 370px) and (orientation: landscape) {
   .name {
   font-family: 'Fredericka the Great';
-  font-size: 8.35em;
+  font-size: 8.3em;
   margin: 0 auto;
   }
   .gif {
@@ -48,6 +45,22 @@ body {
     color: #50514F;
     margin: 4% 8% .5%;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 667px) and (orientation: landscape) {
+  .name {
+  font-family: 'Fredericka the Great';
+  font-size: 6em;
+  margin: 0 auto;
+  }
+}
+
+@media (min-width: 736px) and (orientation: landscape) {
+  .name {
+  font-family: 'Fredericka the Great';
+  font-size: 6.5em;
+  margin: 0 auto;
   }
 }
 
