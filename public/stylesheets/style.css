@@ -1,65 +1,37 @@
+* {
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
 
 body {
-  font: 14px 'Merriweather', serif;
-  text-align: center;
+  overflow-x: hidden;
+  overflow: auto;
+  height: 100%;
   background-color: #70C1B3;
-  color: white;
   max-width: 100%;
-}
-
-.app {
-  padding: 0;
   margin: 0 auto;
-  text-align: center;
-  height: 10em;
-}
-
-h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 6.25em;
-  letter-spacing: .04em;
-  color: white;
-  margin: 0 auto;
-  padding: .1em;
-  width: 100%;
 }
 
 .name {
+  font-size: 6.25em;
+  letter-spacing: .04em;
+  padding: .1em;
   max-width: 100%;
   height: auto;
-  font-family: 'Fredericka the Great', cursive;
+}
+
+.web {
+  font-family: 'Merriweather', serif;
   font-size: 2em;
-  color: white;
-}
-
-h4 {
-  font-family: 'Crimson Text', serif;
-  color: white;
-  margin: 0 auto;
-  font-size: 1.5em;
-}
-
-.description {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 1.5em;
-  text-decoration: none;
-  padding: 1.3em 0;
-  margin: 0 auto;
-  margin: 0 1em;
-}
-
-.flower {
-  height: 12em;
-  margin: 0 auto;
-  margin-top: .5em;
-}
-
-.flowers {
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  padding: 0;
-  width: 168px;
+  color: black;
+  margin: 25px auto;
 }
 
 hr {
@@ -67,6 +39,20 @@ hr {
   margin: 0 auto;
   text-align: center;
   width: 45em;
+}
+
+.works {
+  font-size: 2.5em;
+  margin: 25px auto;
+}
+
+#wip {
+  margin-bottom: 1.5em;
+  width: 65%;
+}
+
+.img {
+  height: 65px;
 }
 
 .email {
@@ -104,41 +90,6 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
-#wip {
-  margin: 0 auto;
-  margin-bottom: 1.5em;
-  width: 65%;
-}
-
-.web {
-  font-family: 'Merriweather', serif;
-  font-size: 2em;
-  color: #50514F;
-  margin: 25px auto;
-}
-
-.works {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 2.5em;
-  margin: 25px auto;
-}
-
-.graduate {
-  font-family: 'Merriweather', serif;
-  font-size: 1.5em;
-  color: #50514F;
-  margin: .45em auto;
-  margin-bottom: 0;
-}
-
-.profilepic {
-  max-height: 18em;
-  /*max-width: 20em;*/
-  border-radius: 50%;
-}
-
-
 
 /* entire container, keeps perspective */
 .flip-container {
