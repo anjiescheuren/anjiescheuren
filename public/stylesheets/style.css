@@ -24,12 +24,18 @@ h1 {
   width: 100%;
 }
 
-name {
+.name {
   max-width: 100%;
   height: auto;
   font-family: 'Fredericka the Great', cursive;
   font-size: 2em;
   color: white;
+}
+
+@media (min-width: 375px) and (orientation: landscape) {
+  .name {
+    font-size: 10em;
+  }
 }
 
 h4 {
@@ -49,7 +55,7 @@ h4 {
 }
 
 .flower {
-  height: 12em;
+  height: 15em;
   margin: 0 auto;
   margin-top: .5em;
 }
@@ -132,14 +138,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-.profilepic {
-  max-height: 18em;
-  /*max-width: 20em;*/
-  border-radius: 50%;
-}
-
-
-
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000;
@@ -151,8 +149,8 @@ a:hover {
   }
 
 .flip-container, .front, .back {
-  width: 12em;
-  height: 12em;
+  width: 15em;
+  height: 15em;
 }
 
 /* flip speed goes here */
@@ -177,7 +175,7 @@ a:hover {
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg);
-  height: 12em;
+  height: 15em;
 }
 
 /* back, initially hidden pane */
