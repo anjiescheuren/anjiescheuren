@@ -209,8 +209,8 @@ p {
 }
 
 .flip-container, .front, .back {
-  width: 18em;
-  height: 18em;
+  width: 12em;
+  height: 12em;
 }
 
 /* hide back of pane during swap */
