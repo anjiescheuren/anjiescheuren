@@ -18,8 +18,7 @@ body {
   font-family: 'Fredericka the Great';
   font-size: 3.24em;
   max-width: 100%;
-  margin-top: 25px;
-
+  margin: 10px auto;
 }
 
 .music {
@@ -44,17 +43,38 @@ body {
 
 .web {
   margin-top: 10px;
-  font-size: 2em;
+  font-size: 2.25em;
   color: #50514F;
+}
+
+.fa-3x {
+  font-size: 28px;
+}
+
+a {
+color: #FFE066;
+padding: 0 4px;
 }
 
 @media (min-width: 370px) and (orientation: landscape) {
   .name {
   font-family: 'Fredericka the Great';
   font-size: 8.3em;
-  margin: 0 auto;
-
+  margin: 10px auto;
   }
+
+  a {
+    padding: 0 15px;
+  }
+
+  .fa-3x {
+    font-size: 35px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+  }
+
   .gif {
   width: 500px;
   margin: 0 auto;
@@ -96,8 +116,10 @@ body {
   .name {
   font-family: 'Fredericka the Great';
   font-size: 6em;
-  margin: 0 auto;
-
+  margin: 10px auto;
+  }
+  .fa-3x {
+    font-size: 35px;
   }
 }
 
@@ -105,8 +127,15 @@ body {
   .name {
   font-family: 'Fredericka the Great';
   font-size: 6.5em;
-  margin: 0 auto;
+  margin: 10px auto;
+  }
 
+  .fa-3x {
+    font-size: 35px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
   }
 }
 
@@ -130,14 +159,13 @@ hr {
   max-width: 65%;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+
 nav {
   max-width: 100%;
   text-align: center;
-}
-
-a {
-color: #FFE066;
-padding: 0 15px;
 }
 
 .links {
